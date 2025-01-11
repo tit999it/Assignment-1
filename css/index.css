@@ -1,0 +1,478 @@
+/* /* General Reset */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+#mainDiv{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #F5F5F5;
+}
+#subDiv{
+    padding: 0px 80px;
+    background-color: #fff;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 18px;
+    background-color: #F5F5F5;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .sign-in {
+    text-decoration: none;
+    font-size: 16px;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007B55;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pillars Section */
+.pillars {
+    /* text-align: center; */
+    /* padding: 50px 80px; */
+    background-color: #fff;
+}
+
+.pillars h2 {
+    font-size: 28px;
+    /* margin: 100px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pillars .cards {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    gap: 20px;
+    margin-bottom: 60px;
+
+}
+
+.pillars .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d9d9d9;
+    transition: all 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.pillars .card:hover {
+    transform: translateY(-5px); /* Slightly lifts the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow */
+    border-color: #007B55; /* Changes the border color on hover */
+    background-color: #007BFF;
+}
+
+
+.pillars .card img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.pillars .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Vision Section */
+.vision {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.vision h2 {
+    font-size: 28px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.vision p {
+    /* margin: 0 auto 40px; */
+    /* text-align: center; */
+    line-height: 1.6;
+}
+
+.vision .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.vision .card1 {
+    background-color: rgb(192, 213, 248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+}
+.card1:hover{
+    background-color: rgb(88, 10, 198);
+    color: #fff;
+}
+
+.card2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+}
+.card2:hover{
+    background-color: rgb(4, 99, 47);
+    color: #fff;
+}
+.card3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+}
+.card3:hover{
+    background-color: rgb(99, 4, 42);
+    color: #fff;
+}
+.vision .card img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.vision .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card:hover {
+    background-color: aqua;
+
+}
+.vision .card .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007B55;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.vision .card .btn:hover {
+    background-color: #005A3F; /* Darkens the button on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* Learn More Buttons */
+.learnMore1 {
+    background-color: rgba(84, 144, 245, 1);
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.learnMore1:hover {
+    background-color: rgb(60, 200, 188); /* Darkens on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.learnMore2 {
+    background-color: rgba(9, 161, 92, 1);
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.learnMore2:hover {
+    background-color: rgba(7, 130, 80, 1); /* Darkens on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.learnMore3 {
+    background-color: rgba(255, 194, 57, 1);
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.learnMore3:hover {
+    background-color: rgba(230, 180, 45, 1); /* Darkens on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+
+
+ .quote-section{
+    background-origin: content-box;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("../assets/quote-bg.png");
+    /* text-align: center; */
+    background-repeat: no-repeat;
+    
+    border: 1px solid 	 #d9d9d9;
+ }
+/* table.table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+table.table th {
+    background-color: rgba(198, 228, 214, 1);
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border: none; 
+}
+
+table.table td {
+    padding: 10px;
+    border: 1px solid #ccc; 
+}
+
+table.table tbody tr {
+    border: 1px solid #ccc; 
+}
+
+table.table .action-cell select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(198, 228, 214, 1);
+    background-color: rgba(198, 228, 214, 0.2);
+    appearance: none;
+}
+ */
+ .opinion-section{
+    margin: 15px;
+ }
+.table-container{
+    padding: 10px 30px;
+}
+ table.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse; 
+}
+
+table.table th {
+    background-color: rgba(198, 228, 214, 1);
+    color: #333;
+    padding: 15px; 
+    text-align: left;
+    border: none; 
+}
+
+table.table td {
+    padding: 12px; 
+    border: 1px solid #ccc;
+}
+
+table.table tbody tr {
+    border: 1px solid #ccc; 
+}
+
+table.table .action-cell select {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid rgba(198, 228, 214, 1);
+    background-color: rgba(198, 228, 214, 0.2);
+    /* appearance: none; */
+}
+.recent{
+    padding: 30px;
+}
+
+.newsCard1 {
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    gap: 20px;
+    background-color: #fff;
+}
+.date{
+    display: flex;
+    gap: 12px;
+}
+.satImg{
+    border-radius:25px;
+}
+.newsBtn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007B55;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.newsCard2{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    background-color: #fff;
+}
+
+/* donate */
+.danateTitle{
+    text-align: center;
+    margin-top: 50px;
+}
+.donateTex{
+    text-align: center;
+}
+.donateTAka{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 28px;
+}
+.taka{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid 	 #d9d9d9;
+    /* width: 120px; */
+    text-align: center;
+}
+.taka2{
+    padding: 30px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 10px;
+    border: 1px solid 	 #d9d9d9;
+}
+.otherAmount{
+    text-align: center;
+    padding: 3px;
+    width: 700px;
+    background-color: #fff;
+    border-bottom: 1px solid 	 #d9d9d9;
+}
+.otherAmountTExt{
+    display: flex; 
+    margin: 20px;
+     justify-content: center;
+     align-items: center;
+     
+}
+.subuscribe{
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between input and button */
+}
+
+.subscribe-input {
+    padding: 16px 15px;
+    /* border: 2px solid #007B55; */
+    border-radius: 5px;
+    /* background-color: #fff; */
+    color: black;
+    background-color: #fff;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1; /* Makes the input field grow to fill available space */
+    transition: all 0.3s ease;
+}
+
+.subscribe-input::placeholder {
+    color: black;
+    opacity: 0.7; /* Slightly faded placeholder */
+}
+
+.subscribe-btn {
+    background-color: #007B55;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 18px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #005A3F; /* Darkens button on hover */
+}
+
+.subscribe-container:hover .subscribe-input {
+    border-color: #005A3F; /* Darkens input border on hover */
+}
+
+
+.footer{
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+}
+.socialMedia{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px;
+}
